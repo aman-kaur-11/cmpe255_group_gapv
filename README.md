@@ -1,9 +1,9 @@
 # Twitter Dataset column breakdown
 1)Created at
-This attribute will include data values which have date and time at which a particular tweet has been posted.There are no missing values in this column
+This attribute will include data values which have date and time at which a particular tweet has been posted.There are no missing values in this column.
 
 2)ID
-This attribute will include data values which have ID’s of twitter users who have posted the tweet.There are no missing values in this column
+This attribute will include data values which have ID’s of twitter users who have posted the tweet.There are no missing values in this column.
 
 3)Lng (Longitude) & Lat(Latitude)
 These attributes will give the longitude and latitude coordinates which will be used to know the geographical location of the user at which the tweet has been posted.Having Geographical location is pivotal.Since many users don’t enable this feature in twitter.We have some missing values in our dataset.We have to deal with the missing values during data preprocessing.There are 114792 missing values in both the columns
@@ -19,7 +19,7 @@ This attribute will include a collection of keywords posted by users in twitter 
 #Donald Trump versus Science
 #Global stance
 #Politics
-# Seriousness of Gas Emissions
+#Seriousness of Gas Emissions
 #Significance of Pollution Awareness Events
 
 Also , there are some undefined or unrelated one word hashtags , which can be dropped during preprocessing.
@@ -40,4 +40,4 @@ This attribute refers to the Average temperature at the location of the user usi
 This attribute measures the text aggression of the tweet posted by the user.This includes two data values Aggressive or not aggressive.This column has 1 missing value 
 
 
-# cmpe255_group_gapv
+#cmpe255_group_gapv
